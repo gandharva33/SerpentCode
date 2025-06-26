@@ -1,15 +1,15 @@
-print("Welcome to Calculator!!")
+print("Welcome to Calculator!!") 
 
-print("Select an operation:")
+print("Select an operation:") 
 print("1.Addition(+)")
 print("2.Subtraction(-)")
 print("3.Multiplication(*)")
 print("4.Division(/)")
 
-operation = input("Select and operation(+)(-)(*)(/):")
+operation = input("Select and operation(+)(-)(*)(/):") # Select and operation to perform.
 
-n1 = float(input("Enter number 1:"))
-n2 = float(input("Enter number 2:"))
+n1 = float(input("Enter number 1:"))                   # Input for number 1.
+n2 = float(input("Enter number 2:"))                   # Input for number 2.
 
 if operation == '+':
     print(f"{n1+n2}")
